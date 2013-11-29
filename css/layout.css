@@ -1,0 +1,26 @@
+#content,
+#sidebar-first,
+#sidebar-second {
+  float: left;
+  display: inline;
+  position: relative;
+}
+
+#content {
+  width: 80%;
+}
+
+#sidebar-first {
+  width: 100%;
+  display: inline-block;
+  float: left;
+  clear: both;
+}
+
+#sidebar-second {
+  float: right; /* LTR */
+  width: 20%;
+}
+
+.section {
+}

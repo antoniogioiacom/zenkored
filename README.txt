@@ -1,0 +1,1 @@
+Platform 1984 theme created by enkore (@antoniogioiacom). The setup for this theme is created around the current configuration, please do not play around with blocks and options unless you know what you are doing, check the code for comments and rendering procedure or contact me at een.kore@gmail.com
