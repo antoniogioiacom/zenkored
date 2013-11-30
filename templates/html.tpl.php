@@ -13,7 +13,7 @@
 </head>
  
 <body<?php print $body_attributes;?>>
-<img src="/drupal7/themes/zenkored/images/header4.jpg" class="img">
+<img src="/drupal7/themes/zenkored/images/header.jpg" class="img">
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
