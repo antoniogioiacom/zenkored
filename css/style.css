@@ -304,12 +304,12 @@ h1#page-title {
 }
 
 .node h2 a{
-  display:block;
   color:#434343;
 }
 
 .node-teaser .content{
 }
+
 .node-teaser h2 {
   margin-top: 0;
   padding-top: 0.6em;
@@ -432,6 +432,7 @@ border: 1px solid #f0f0f0;
 #block-views-calendar-block-2 li{
   list-style: none;
   text-align:right;
+  padding-right: 0.6em;
 }
 
 #block-views-calendar-block-2 li a{
@@ -448,4 +449,8 @@ video {
 iframe {
   position: relative;
   margin:0 auto;
+}
+
+.field{
+  padding: 0 0.9em;
 }
