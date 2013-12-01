@@ -6,7 +6,7 @@
   <?php
 
   // commenting this lines i remove all the css and js crap of the standard drupal configuration
-  
+
   print $styles;
   //print $scripts;
 
@@ -15,7 +15,7 @@
 </head>
 
 <body<?php print $body_attributes;?>>
-<img src="<?php echo $ImagesUrl; ?>/header.jpg" class="img">
+<!--<img src="/header.jpg" class="img">-->
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
