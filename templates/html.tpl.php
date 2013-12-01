@@ -15,7 +15,7 @@
 </head>
 
 <body<?php print $body_attributes;?>>
-<!--<img src="/header.jpg" class="img">-->
+<img src="http://p1984.nl/sites/p1984.nl/files/header.jpg" class="img">
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
