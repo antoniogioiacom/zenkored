@@ -114,6 +114,16 @@
 
   </div></div> <!-- /#main, /#main-wrapper -->
 
+  <div id="footer-wrapper"><div class="section">
+
+    <?php if ($page['footer']): ?>
+      <div id="footer" class="clearfix">
+        <?php print render($page['footer']); ?>
+      </div> <!-- /#footer -->
+    <?php endif; ?>
+
+  </div></div> <!-- /.section, /#footer-wrapper -->
+
 
 
 </div></div> <!-- /#page, /#page-wrapper -->
