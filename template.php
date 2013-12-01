@@ -15,6 +15,9 @@ function zenkored_preprocess_html(&$variables) {
     $variables['classes_array'][] = 'footer-columns';
   }
 
+  drupal_add_css(drupal_get_path('theme', 'zenkored') . '/layout.css', array('group' => CSS_THEME, 'type' => 'file'));
+  drupal_add_css(drupal_get_path('theme', 'zenkored') . '/style.css', array('group' => CSS_THEME, 'type' => 'file'));
+
 }
 
 /**
