@@ -309,7 +309,6 @@ h1#page-title {
 }
 
 .node-teaser .content{
-  font-size: 160%;
 }
 .node-teaser h2 {
   margin-top: 0;
@@ -330,10 +329,10 @@ border: 1px solid #e6e6e6;
 border-radius: 3px;
   padding:1em 1.9em;
   background-image: url('../images/bg-article.png');
-  margin-bottom:2.3em;
+  margin-bottom:2.9em;
 }
 
-.node-page p{
+.node-article p, .node-blog p, .node-event p, .node-page p{
   font-size: 160%;
   line-height: 140%;
 }
@@ -428,7 +427,6 @@ color: #797979;
 -ms-transform: rotate(-1deg);
 -o-transform: rotate(-1deg);
 border: 1px solid #f0f0f0;
-margin-right:0.3em;
 }
 
 #block-views-calendar-block-2 li{
