@@ -6,21 +6,11 @@
   <?php
 
   // commenting this lines i remove all the css and js crap of the standard drupal configuration
-  //print $styles;
+  
+  print $styles;
   //print $scripts;
-  $ImagesPath = '/images';
-  $CssPath = '/css';
-  $CssLayout = '/layout.css';
-  $CssStyle = '/style.css';
-  $CssUri = file_build_uri($CssPath);
-  $CssUrl = file_create_url($CssUri);
-  $ImagesUri = file_build_uri($ImagesPath);
-  $ImagesUrl = file_create_url($ImagesUri);
 
   ?>
-
-  <link rel="stylesheet" type="text/css" href="<?php echo $CssUrl.$CssLayout; ?>">
-  <link rel="stylesheet" type="text/css" href="<?php echo $CssUrl.$CssStyle; ?>">
 
 </head>
 
