@@ -446,6 +446,11 @@ ul.links{
   z-index: 99;
 }
 
+#block-node-syndicate{
+position:relative;
+z-index: 49;
+}
+
 .field-items{
   text-align: left;
 }
@@ -483,6 +488,7 @@ text-transform: capitalize;
 video {
   width: 100%    !important;
   height: auto   !important;
+  border:6px solid #e6e6e6;
 }
 
 iframe {
