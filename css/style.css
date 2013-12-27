@@ -435,10 +435,15 @@ ul.links{
 }
 
 .feed-icon{
+	display:none;
+}
+
+#header .feed-icon{
+	display: inline-block;
   position: absolute;
   top:-5.3em;
   right:1.9%;
-  z-index: 29;
+  z-index: 99;
 }
 
 .field-items{
@@ -509,5 +514,22 @@ iframe {
 .block-aggregator li{
   list-style: none;
   font-size: 130%;
+}
+
+@media only screen and (max-width: 900px){
+
+#block-system-main-menu li a{
+  font-size: 120%;
+  padding: 0.96em;
+}
+
+#header .feed-icon{
+	display: inline-block;
+  position: absolute;
+  top:1.2em;
+  right:2%;
+  z-index: 999;
+}
+
 }
 
