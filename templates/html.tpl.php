@@ -6,7 +6,7 @@
   <?php
 
   print $styles;
-  //print $scripts;
+  print $scripts;
 
   ?>
 
