@@ -1,18 +1,25 @@
 zenkored
 ========
 
-zenkored drupal7 theme for p1984.nl
+zenkored drupal7 theme
 
 info
 ========
 
-created by enkore (@antoniogioiacom)
-theme under development
+- created by enkore (@antoniogioiacom)
+- theme live on http://www.p1984.nl
 
-final version should include
+current version include
 ========
 
 - html5 ready
 - lightweight page load
 - reset default drupal javascript
 - responsive for desktop and mobile devices
+
+todo
+========
+
+- improve audio and video with javascript
+- improve footer
+
